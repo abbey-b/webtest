@@ -1,0 +1,120 @@
+/*CSS SPECIFIC STYLING -- AFFILIATES PAGE*/
+
+/*Header Section*/
+
+h1{
+    padding: 1.25rem 0rem 2rem 0rem;
+    color: #165354;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    margin: 0 0;
+    text-align: center;
+}
+
+
+p.section-text{
+    text-align: center;
+    padding: 0rem 0rem 2rem;
+}
+
+/*Main content body*/
+
+h2{
+    text-align: center;
+    padding: 0 0 0 0;
+}
+
+p.section-text{
+    text-align: center;
+    padding: 2rem 0rem 5rem;
+}
+
+
+/*Affiliations Cards*/
+.affiliations{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: auto;
+    column-gap: auto;
+    padding-bottom: 10rem;
+}
+
+.company-card {
+    /* Add shadows to create the "card" effect */
+    margin: 1rem 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 0.5rem;
+}
+
+.company-card-container p{
+    line-height: 1.5;
+}
+
+.company-card-container p.web-link{
+    padding: 0.5rem 0;
+}
+
+.company-card-container a {
+    color: #1C1C1C;
+}
+
+.company-card-container a:hover {
+    color: #165354;
+}
+
+.company-card-container{
+    margin: 0 0;
+    padding: 1rem 2rem 2rem;
+    text-align: center;
+}
+
+.company-card-container img{
+    max-width: 25%;
+    max-height: 100%;
+    padding-bottom: 0.1rem;
+}
+
+.company-card-container img.ibd{
+    max-width: 40%;
+    max-height: 100%;
+}
+
+.company-card-container img.bgh{
+    max-width: 45%;
+    max-height: 100%;
+    padding: 1rem 0rem;
+}
+
+.company-card-container img.gmcc, .company-card-container img.ew {
+    max-width: 42%;
+    max-height: 100%;
+}
+
+.company-card-container img.hp {
+    max-width: 48%;
+    max-height: 100%;
+    padding: 1rem 0rem;
+}
+
+.company-card-container img.ha {
+    max-width: 32%;
+    max-height: 100%;
+}
+
+.company-card-container img.ew{
+    padding: 1rem 0rem;
+}
+
+.company-card-container h3{
+    padding: 0rem 0rem 0.5rem;
+}
+
+
+
+@media screen and (max-width: 613px){
+    
+    .affiliations{
+        grid-template-columns: 1fr;
+    }
+}

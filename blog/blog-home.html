@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Tells webpage that the HTML code is in English-->
+
+<head>
+    <!--head section is read by the browser but not displayed visibly on the webpage-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Pennine Consultancy </title>
+    <!--chrome tab name-->
+    <link rel="icon" href="###">
+    <!--"favicon"-->
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <!--Global CSS file-->
+    <script src="../javascript/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--adding in social media icons, font-awesome is the library-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+
+<body>
+    <!--Skip link-->
+    <a href="./affiliate.html#main-content-body" class="skipLink" tabindex="0">Skip navigation</a>
+
+    <!--Navigation Section-->
+    <section class="hero">
+        <nav class="topnav" id="topNav">
+            <div class="logo">
+                <img src="##"></a>
+            </div>
+
+            <nav class="nav_list" id="nav-list">
+                <ul class="nav-level1">
+                    <a href="###" style="font-size:20px;" class="icon" onclick="displayNav()" tabindex="0">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+                    <li class="nav-primary-listitem">
+                        <a href="../index.html" class="underline" tabindex="0">Home</a>
+                    </li>
+                    <li class="nav-primary-listitem">
+                        <a href="##" class="underline" tabindex="0">About</a>
+                    </li>
+                    <li class="nav-primary-listitem">
+                        <a href="../inclusion.html" class="underline" tabindex="0">Inclusion</a>
+                    </li>
+                    <li class="nav-primary-listitem">
+                        <a href="##" class="underline" tabindex="0">Manufacturing</a>
+                    </li>
+
+                    <li class="nav-primary-listitem">
+                        <a href="../blog/blog-home.html" class="underline" tabindex="0">Blog</a>
+                    </li>
+
+                    <li class="nav-primary-listitem">
+                        <a href="##" class="underline" tabindex="0">Contact</a>
+                    </li>
+
+                    <a href="###" style="font-size:20px;" class="icon-close" onclick="displayNav()" tabindex="0">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </ul>
+            </nav>
+        </nav>
+
+
+        <!--Breadcrumb Links-->
+        <nav aria-label="breadcrumb" class="breadcrumb-links">
+            <ol class="breadcrumb-links">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li><i class="fa fa-chevron-right"></i></li>
+                <li class="breadcrumb-item active" aria-current="page">Blog</li>
+            </ol>
+        </nav>
+
+        <!--Page Header-->
+        <header>
+            <h1>Pennine Consultancy | Blog</h1>
+            <p class="section-text">What looked like a small patch of purple grass, above five feet
+                square, was moving across the sand in their direction.</p>
+        </header>
+    </section>
+
+    <!--Main Content Body-->
+    <div id="main-content-body">
+
+        <section class="section-feature-blog-articles">
+            <h2>Latest Blog Posts</h2>
+            <br>
+            <p class="section-text">What looked like a small patch of purple grass, above five feet
+                square, was moving across the sand in their direction.</p>
+
+            <h3>Filter posts by topic:</h3>
+            <div class="filter-buttons">
+                <button class="btn active all" onclick="filterSelection('all')">Show all</button>
+                <button class="btn accessibility" onclick="filterSelection('accessibility')">Accessibility</button>
+                <button class="btn business" onclick="filterSelection('business')">Business</button>
+            </div>
+
+            <div class="blog-articles">
+                <div class="blog-article-card accessibility">
+                    <div class="blog-article-container">
+                        <img src="##">
+                        <h3>Blog Article 1</h3>
+                        <p class="italic">15th May 2021</p>
+                        <div class="filter-box">
+                            <p class="filter box1">Acccessibility</p>
+                        </div>
+                        <p>What looked like a small patch of purple grass, above five feet
+                            square, was moving across the sand in their direction.
+                        </p>
+                        <p class="web-link"><a href="./blog-article/sample-page.html">Read more</a></p>
+                    </div>
+                </div>
+
+                <div class="blog-article-card business">
+                    <div class="blog-article-container">
+                        <img src="##">
+                        <h3>Blog Article 2</h3>
+                        <p class="italic">15th May 2021</p>
+                        <div class="filter-box">
+                            <p class="filter box2">Business</p>
+                        </div>
+                        <p>What looked like a small patch of purple grass, above five feet
+                            square, was moving across the sand in their direction.
+                        </p>
+                        <p class="web-link"><a href="##">Read more</a></p>
+                    </div>
+                </div>
+
+                <div class="blog-article-card accessibility business">
+                    <div class="blog-article-container">
+                        <img src="##">
+                        <h3>Blog Article 3</h3>
+                        <p class="italic">15th May 2021</p>
+                        <div class="filter-box">
+                            <p class="filter box1">Acccessibility</p>
+                            <p class="filter box2">Business</p>
+                        </div>
+                        <p>What looked like a small patch of purple grass, above five feet
+                            square, was moving across the sand in their direction.
+                        </p>
+                        <p class="web-link"><a href="##">Read more</a></p>
+                    </div>
+                </div>
+
+                <div class="blog-article-card accessibility">
+                    <div class="blog-article-container">
+                        <img src="##">
+                        <h3>Blog Article 4</h3>
+                        <p class="italic">15th May 2021</p>
+                        <p class="filter box1">Acccessibility</p>
+                        <p>What looked like a small patch of purple grass, above five feet
+                            square, was moving across the sand in their direction.
+                        </p>
+                        <p class="web-link"><a href="##">Read more</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+</body>
+
+
+<!--Footer Section-->
+<footer>
+    <div class="footer-grid">
+        <div class="footer-item--1">
+            <h4 class="h4-footer-big">Our Story.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+        </div>
+
+        <div class="footer-item--2">
+            <h4 class="h4-footer-big">Latest Blog Posts.</h4>
+            <ul>
+                <li>
+                    <p>Sample Blog Post One</p>
+                </li>
+                <li>
+                    <p>Sample Blog Post Two</p>
+                </li>
+                <li>
+                    <p>Sample Blog Post Three</p>
+                </li>
+                <li>
+                    <p><a href="./blog.html">Read more</a></p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-socialIcons">
+            <ul class="ul-icons">
+                <li>
+                    <a href="mailto:davidb@pennineconsultancy.co.uk" tabindex="0"><i class="fa fa-envelope"></i></a>
+                </li>
+                <li>
+                    <a href="tel:+44####" tabindex="0"><i class="fa fa-phone"></i></a></li>
+                <!--click to call only works for mobile devices-->
+                <li>
+                    <a href="https://www.twitter.com/###" tabindex="0"><i class="fa fa-twitter"></i></a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/david-j-butler" tabindex="0"><i class="fa fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="footer-item--3">
+            <h4 class="h4-footer-big">Services</h4>
+            <ul>
+                <li>
+                    <p>Strategic Planning</p>
+                </li>
+                <li>
+                    <p>Product Management</p>
+                </li>
+                <li>
+                    <p>Inclusion and Equality</p>
+                </li>
+                <li>
+                    <p>R&D Tax Credits</p>
+                </li>
+                <li>
+                    <p>Cost Management</p>
+                </li>
+                <li>
+                    <p>Business Support</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-item--4">
+            <h4 class="h4-footer-big">Resources</h4>
+            <ul>
+                <li>
+                    <p><a href="./affiliate.html">Affiliations</a></p>
+                </li>
+                <li>
+                    <p>Accessible Demo Website</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-item--5">
+            <h4 class="h4-footer-big">Company</h4>
+            <ul>
+                <li>
+                    <p>Who we are</p>
+                </li>
+                <li>
+                    <p>Contact Us</p>
+                </li>
+                <li>
+                    <p>Accessibility</p>
+                </li>
+                <li>
+                    <p>Legal</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+<!--Scroll to top button-->
+<button onclick="scrollToTop()" id="scroll-top" title="Go to top"><i class="fa fa-chevron-circle-up"></i>
+</button>
+
+<script src="../javascript/blog.js"></script>
+
+</html>
